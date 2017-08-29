@@ -1,0 +1,22 @@
+{
+    "packname": "Errors",
+    
+    "error_title": "Something wrong!",
+    "error_403": "You can't complete this action. Access denied.",
+    "error_404": "Sorry, but we can't find something here. Please, try again later or go back to homepage.",
+    "error_500": "Unknown internal server error.",
+    "error_999": "The server is currently offline. Please, comeback later.",
+    
+    "not_api_controller": "This method is not for API requests",
+    "not_frontend_controller": "This method is not available for NON-API requests",
+    
+    "media_upload_no_file": "Failed to upload this file. Request is not contain file data.",
+    "media_size_label1": "Failed to upload file. Maximum photo resolution is ",
+    "media_size_label2": " pixels and maximum file size is ",
+    "media_size_label3": "MB",
+    "media_wrong_ext": "Failed to upload this file. You can upload only files with extension .jpg, .png, .jpeg or .gif",
+    "media_move_error": "Failed to upload this file. Failed to move this file.",
+    
+    "auth_required": "You need signin for complete this action.",
+    "admin_required": "You need an administrator privilegies for complete this action."
+}

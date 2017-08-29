@@ -1,0 +1,17 @@
+<script src="/frontend/assets/js/jquery.js"></script>
+<script src="/frontend/assets/js/bootstrap.js"></script>
+<script src="/frontend/assets/js/api.js"></script>
+<script src="/frontend/assets/js/analytics.js"></script>
+<script src="/frontend/view/website/assets/js/jquery.flexslider-min.js"></script>
+<script src="/frontend/view/website/assets/js/owl.carousel.min.js"></script>
+<script src="/frontend/view/website/assets/js/isotope.min.js"></script>
+<script src="/frontend/view/website/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="/frontend/view/website/assets/js/jquery.scrollTo.min.js"></script>
+<script src="/frontend/view/website/assets/js/smooth.scroll.min.js"></script>
+<script src="/frontend/view/website/assets/js/jquery.appear.js"></script>
+<script src="/frontend/view/website/assets/js/jquery.countTo.js"></script>
+<script src="/frontend/view/website/assets/js/jquery.scrolly.js"></script>
+<script src="/frontend/view/website/assets/js/plugins-scroll.js"></script>
+<script src="/frontend/view/website/assets/js/imagesloaded.min.js"></script>
+<script src="/frontend/view/website/assets/js/pace.min.js"></script>
+<script src="/frontend/view/website/assets/js/main.js"></script>

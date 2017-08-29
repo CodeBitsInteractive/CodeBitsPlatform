@@ -1,0 +1,28 @@
+{
+    "packname": "Notifications",
+    
+    "notifications_empty": "No new notifications",
+    "show_all_notifications": "Show All Notifications",
+    "h_noty_remove": "Delete Notification",
+    "noty_confirm_remove_title": "Are you sure?",
+    "noty_confirm_remove_text": "This notification may be helpful for another administrators. Remove this notificaion?",
+    "noty_confirm_remove_yes": "Remove",
+    "noty_confirm_remove_no": "Cancel",
+    "noty_confirm_canceled_title": "Canceled",
+    "noty_confirm_canceled_desc": "This notificaion is not deleted from system.",
+    "noty_removed": "Notificaion was deleted successful",
+    "notification_for_error": "User not found. Please, try again later.",
+    
+    "noty_media_removed": "remove media file:",
+    "noty_page_removed": "remove page:",
+    "noty_page_saved": "change page:",
+    "noty_user_saved": "change profile:",
+    "noty_user_saved_self": "change your profile.",
+    "noty_user_removed": "remove profile:",
+    "noty_user_banned": "ban profile:",
+    "noty_user_created": "create profile:",
+    "noty_component_created": "create component:",
+    "noty_component_edited": "change component:",
+    "noty_language_save": "change localization:",
+    "noty_user_unbanned": "unban profile:"
+}

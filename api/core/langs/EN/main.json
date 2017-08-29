@@ -1,0 +1,41 @@
+{
+    "packname": "General",
+    
+    "application": "CodeBits Platform",
+    "autor": "CodeBits Interactive",
+    "address": "Russia, Perm",
+    "hours": "10:00 - 22:00",
+    "phone": "+7(999)999-99-99",
+    "lang_name": "English",
+    
+    "method_exception": "Method name is not allowed",
+    "db_request_error": "Failed to send request to database. Please, try again later.",
+    "uid_not_valid": "Server error. User UID must be contain only numeric letters.",
+    
+    "failed_to_found_page": "Failed to found page with this slug for save.",
+    "page_already_exists": "For this URL found another page. Please, change page URL (slug)",
+    "page_search": "Search page...",
+    "action_thead": "Action",
+    "t_more": "Show more",
+    "t_prev": "Show prev",
+    
+    "page_confirm_remove_title": "Are you sure?",
+    "page_confirm_remove_text": "Page will be deleted forever. Continue?",
+    "page_confirm_remove_yes": "Remove",
+    "page_confirm_remove_no": "Cancel",
+    "page_confirm_canceled_title": "Cancelled",
+    "page_confirm_canceled_desc": "The page deletion process canceled successful",
+    "page_uid_required": "Request is not contain page slug",
+    "find_pages": "Search Pages...",
+    "no_results": "No results match criteria",
+    
+    "c_pages_title": "Pages",
+    "c_pages_desc": "Website pages overview. Find pages and topics on website",
+    "c_pages_tags": "pages,search,find,materials",
+    "c_edit_profile_title": "Edit Profile",
+    "c_edit_profile_desc": "Change your profile information on this page",
+    "c_edit_profile_tags": "change,edit,profile,information",
+    "c_edit_password_title": "Change Password",
+    "c_edit_password_desc": "Change your account password on this page",
+    "c_edit_password_tags": "change,edit,profile,information"
+}

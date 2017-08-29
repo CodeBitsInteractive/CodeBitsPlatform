@@ -1,0 +1,21 @@
+{
+    "packname": "Homepage",
+    
+    "home_title": "Homepage",
+    "home_desc": "Welcome to CodeBits Platform demo website. Change this desctiption in homepage language package.",
+    "home_keywords": "home,welcome,demo,website,codebits,platform",
+    
+    "hello_1": "Welcome to the",
+    "hello_2": "CodeBits Platform",
+    "hello_sub": "This is demo page of your new website based on CodeBits Platform. For manage your website - go to the control panel. And you can change this text in the translation module.",
+    
+    "be_creative": "Created for everyone.",
+    "creative_desc": "Simple and lightweight framework with most important components.",
+    
+    "feat1_head": "Fast",
+    "feat1_desc": "Designed on the Singleton basics, MVC framework under the hood, shows a high speed of operation",
+    "feat2_head": "Ready to production",
+    "feat2_desc": "Light and not overloaded platform is ready for production. Develop perfect project with CBP",
+    "feat3_head": "All what you need",
+    "feat3_desc": "It already contains API support, built-in control panel, authorization system and much more"
+}
