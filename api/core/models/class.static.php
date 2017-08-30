@@ -132,6 +132,11 @@ class CBP_Model_static extends BaseModel{
             }
         }
         
+        // Обработка данных
+        foreach($_dt as $key=>$val){
+            $_dt[$key]=$request->escape($val);
+        }
+        
         // Обновление / добавление контента
         if(!$_create_new){ // Не для новой страницы
             foreach($data as $lng=>$val){ // Перебор языков
