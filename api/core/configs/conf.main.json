@@ -1,0 +1,48 @@
+{
+    "installed": false,
+    "db": {
+        "driver": "",
+        "host": "",
+        "name": "",
+        "login": "",
+        "password": "",
+        "encoding": "",
+        "prefix": ""
+    },
+    "system": {
+        "default_language": "EN",
+        "analytics": true,
+        "cache": {
+            "enabled": false,
+            "time": 18000
+        },
+        "max_upload_filesize": 10485760,
+        "max_upload_width": 1920,
+        "max_upload_height": 1080,
+        "modules": [""],
+        "secret": "",
+        "version": "1.0",
+        "build": 1000,
+        "platform_version": "1.0"
+    },
+    "website": {
+        "enabled": true,
+        "public_email": "support@iwaps.ru"
+    },
+    "users": {
+        "social_login": true,
+        "registration": true,
+        "unique_email": true,
+        "email_confirm": true,
+        "notifications": true,
+        "allowed_login_symbols": "0-9A-Za-z",
+        "min_login_length": 5,
+        "max_login_length": 30,
+        "min_password_length": 6,
+        "max_password_length": 32
+    },
+    "api": {
+        "enabled": true,
+        "domain": "*"
+    }
+}

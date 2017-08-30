@@ -1,0 +1,28 @@
+{
+    "packname": "Уведомления",
+    
+    "notifications_empty": "Новых уведомлений нет",
+    "show_all_notifications": "Показать все уведомления",
+    "h_noty_remove": "Удалить уведомление",
+    "noty_confirm_remove_title": "Вы уверены?",
+    "noty_confirm_remove_text": "Это уведомление может быть полезно другим администраторам. Вы действительно хотите удалить его?",
+    "noty_confirm_remove_yes": "Удалить",
+    "noty_confirm_remove_no": "Отмена",
+    "noty_confirm_canceled_title": "Отменено",
+    "noty_confirm_canceled_desc": "Уведомление не было удалено из системы.",
+    "noty_removed": "Уведомление успешно удалено",
+    "notification_for_error": "Пользователь не найден. Повторите ваш запрос немного позже.",
+    
+    "noty_media_removed": "удалил медиа-файл:",
+    "noty_page_removed": "удалил страницу:",
+    "noty_page_saved": "изменил страницу:",
+    "noty_user_saved": "изменил профиль:",
+    "noty_user_saved_self": "изменил ваш профиль.",
+    "noty_user_removed": "удалил профиль:",
+    "noty_user_banned": "заблокировал профиль:",
+    "noty_user_created": "создал профиль:",
+    "noty_component_created": "создал компонент:",
+    "noty_component_edited": "изменил компонент:",
+    "noty_language_save": "изменил локализацию:",
+    "noty_user_unbanned": "разблокировал профиль:"
+}
