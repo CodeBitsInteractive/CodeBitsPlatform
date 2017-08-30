@@ -27,9 +27,9 @@ Please see the license agreement.
 ## Resources
 - <a href="https://platform.cdbits.net/">CodeBits Platform Official Website</a>
 - <a href="https://platform.cdbits.net/changelog/">Changelog Page</a>
-- <a href="https://cdbits.net/">CodeBits Official Website</a>
+- <a href="https://cdbits.net/" target="blank">CodeBits Official Website</a>
 
 ## Support
-- <a href="https://cdbits.net/">Official Website</a> (International)
-- <a href="https://vk.com/codebits">Official VK Community</a> (Russian)
-- <a href="https://t.me/codebits">Official Telegram Channel</a> (International)
+- <a href="https://cdbits.net/" target="blank">Official Website</a> (International)
+- <a href="https://vk.com/codebits" target="blank">Official VK Community</a> (Russian)
+- <a href="https://t.me/codebits" target="blank">Official Telegram Channel</a> (International)
