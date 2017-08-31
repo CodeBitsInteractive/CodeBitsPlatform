@@ -169,7 +169,7 @@ class CBP_Model_analytics extends BaseModel{
         }
         
         // Получаем действия визитора на сегодня
-        $q = $this->CBP->db->query->select_where("ip_actions", "`day`='".date("d.m.Y")."' AND `action`='visit'", 1);
+        $q = $this->CBP->db->query->select_where("ip_actions", "`day`='".date("d.m.Y")."' AND `action`='visit' AND `ip`='".$_uip."'", 1);
         if(!$q){ // Запрос не удался
             return ['complete'=>false, "code"=>"db_request_error", "db_error"=>$this->CBP->db->query->error()];
         }else{ // Запрос удался
