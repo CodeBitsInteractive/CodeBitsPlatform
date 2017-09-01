@@ -131,16 +131,12 @@ class CBP_Model_static extends BaseModel{
                 }
             }
         }
-        
-        // Обработка данных
-        foreach($_dt as $key=>$val){
-            $_dt[$key]=$request->escape($val);
-        }
-        
+
         // Обновление / добавление контента
         if(!$_create_new){ // Не для новой страницы
             foreach($data as $lng=>$val){ // Перебор языков
                 $_dt = $data[$lng]; // Данные
+                $_dt = $this->escapeArray($_dt);
                 $q = $request->send("UPDATE `".PREFIX."static_pages` SET `title`='".$_dt['title']."', `desc`='".$_dt['desc']."', `tags`='".$_dt['tags']."', `body`='".$_dt['body']."', `image`='".$_dt['image']."', `views`=0, `time`=".time()." WHERE `language`='".$lng."' AND `slug`='".$page_slug."'");
                 if(!$q){ // Запрос не удался
                     return ['complete'=>false, "code"=>"db_request_error"];
@@ -149,6 +145,7 @@ class CBP_Model_static extends BaseModel{
         }else{ // Для новой страницы
             foreach($data as $lng=>$val){ // Перебор языков
                 $_dt = $val; // Данные
+                $_dt = $this->escapeArray($_dt);
                 $q = $request->send("INSERT INTO `".PREFIX."static_pages` SET `language`='".$lng."', `slug`='".$page_slug."', `title`='".$_dt['title']."', `desc`='".$_dt['desc']."', `tags`='".$_dt['tags']."', `body`='".$_dt['body']."', `image`='".$_dt['image']."', `views`=0, `time`=".time());
                 if(!$q){ // Запрос не удался
                     return ['complete'=>false, "code"=>"db_request_error"];
@@ -183,5 +180,17 @@ class CBP_Model_static extends BaseModel{
         
         // Все ок
         return ['complete'=>true];
+    }
+    
+    // Escape для массива
+    private function escapeArray($array){
+        $request = $this->CBP->db->query; // Линк на БД
+        
+        // Обработка массива
+        foreach($array as $key=>$val){
+            $array[$key]=$request->escape($val);
+        }
+        
+        return $array;
     }
 }
