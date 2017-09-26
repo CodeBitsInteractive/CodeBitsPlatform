@@ -937,8 +937,10 @@ class User{
         }
         
         // Проверка существования старой авы
-        if(file_exists($_SERVER['DOCUMENT_ROOT'].$old_ava) && $old_ava!=""){
-            unlink($_SERVER['DOCUMENT_ROOT'].$old_ava);
+        if($old_ava!=$data['avatar']){
+            if(file_exists($_SERVER['DOCUMENT_ROOT'].$old_ava) && $old_ava!=""){
+                unlink($_SERVER['DOCUMENT_ROOT'].$old_ava);
+            }
         }
         
         // Все ок
