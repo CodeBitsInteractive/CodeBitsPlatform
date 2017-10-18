@@ -154,7 +154,7 @@
                                                 </div>
                                             </div>
                                             <input type="hidden" name="new" value="<?=(isset($page_data) && $page_data!==false)?"false":"true"?>" />
-                                            <input data-cross="page_cover" type="hidden" name="image" value="<?=(isset($page_data[$default_language]))?$default_language:""?>" />
+                                            <input data-cross="page_cover" type="hidden" name="image" value="<?=(isset($page_data[$default_language]['image']))?$page_data[$default_language]['image']:""?>" />
                                             <div class="row">
                                                 <div class="col s12">
                                                     <div class="photo-picker" data-model="photo_picker" style="background-image: url('<?=(isset($page_data[$default_language]['image']))?$page_data[$default_language]['image']:""?>');">
