@@ -1,3 +1,6 @@
+# WARNING
+This version of software is deprecated and unsupported. New version of CodeBits Platform is coming soon.
+
 # What is CodeBits Platform
 <b>CodeBits Platform</b> is an <i>Application Development Framework</i> with more helpful built-in modules. <b>A platform</b> - is a toolkit for pepople, who build <i>websites</i> and <i>applications</i> using PHP. Its goal is to enable you to develop projects much faster than you could if you were writing code from scratch, by providing a rich set of libraries for commonly needed tasks, as well as a simple interface and logical structure to access these libraries. <b>CodeBits Platform</b> lets you creatively focus on your project by minimizing the amount of code needed for a given task.
 
